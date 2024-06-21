@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>GolTable/Forgot_Password</title>
+    <link rel="stylesheet" type="text/css" href="CSS/forgotPass.css">
+
+    <!-- boxicons link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- inter fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- header section -->
+    <header>
+        <a href="home.html" class="logo">
+            <span>G</span>ol<span>T</span>able
+        </a>
+
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="singUp.html">Sign Up</a></li>
+            <li><a href="signIn.html" class="active">Sign In</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+
+        <div class="menu-button">
+            <span>MENU</span>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+
+
+    <!-- Sign In Section -->
+    <div class="container">
+
+        <form id="signInForm">
+            <h2>Change Your Password</h2>
+
+            <div class="content">
+
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter Your Email Address" required>
+                </div>
+
+                <!-- <input type="text" id="otp" name="OTP" placeholder="Enter The OTP We Send To Your Email" minlength="6" maxlength="6"> -->
+
+            </div>
+
+            <div class="button-container">
+                <button type="submit">Get OTP</button>
+            </div>
+
+            <div class="register-link">
+                    <p>Go To Sign In Page <a href="signIn.html">Sign In</a></p>
+            </div>
+        </form>
+        <!-- <div class="button-container">
+            <button type="submit" id="verifyOTP">Verify Your Email</button>
+        </div> -->
+    </div>
+
+
+    <script src="JS/forgotPass.js"></script>
+</body>
+
+</html>
